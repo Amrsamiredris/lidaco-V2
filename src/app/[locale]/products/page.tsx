@@ -21,36 +21,26 @@ export default async function ProductsPage({
     "kalleh-ghouchi-pistachio",
   ] as const;
 
-  // Render a high-end minimalist graphic placeholder for products without specific images
-  const getProductPlaceholder = (slug: string) => {
-    if (slug === "mazafati-bam-dates") {
-      return (
-        <div className="relative w-full h-64 bg-lidaco-green/10 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
-          <Image
-            src="/images/mazafati_dates.png"
-            alt="Mazafati Bam Dates"
-            fill
-            className="object-cover"
-            sizes="(max-w-7xl) 50vw, 500px"
-          />
-        </div>
-      );
-    }
-
-    const isDate = slug.includes("dates");
+  // Render a high-end product image for each date or pistachio product
+  const getProductPlaceholder = (slug: string, name: string) => {
+    let src = "/images/mazafati_dates.png";
+    if (slug === "piarom-dates") src = "/images/piarom_dates.png";
+    else if (slug === "kabkab-dates") src = "/images/kabkab_dates.png";
+    else if (slug === "rabi-dates") src = "/images/rabi_dates.png";
+    else if (slug === "akbari-pistachio") src = "/images/akbari_pistachios.png";
+    else if (slug === "ahmad-aghaei-pistachio") src = "/images/ahmad_aghaei_pistachios.png";
+    else if (slug === "fandoghi-pistachio") src = "/images/fandoghi_pistachios.png";
+    else if (slug === "kalleh-ghouchi-pistachio") src = "/images/kalleh_ghouchi_pistachios.png";
 
     return (
-      <div className="relative w-full h-64 bg-lidaco-green/10 flex flex-col items-center justify-center transition-transform duration-500 group-hover:scale-105">
-        {/* Subtle geometric luxury pattern */}
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#C8A84B_1px,transparent_1px)] [background-size:16px_16px]" />
-        
-        {/* Minimalist Food Icon */}
-        <span className="text-4xl text-lidaco-gold mb-2 transition-transform duration-300 group-hover:scale-110">
-          {isDate ? "🌴" : "🥜"}
-        </span>
-        <span className="text-[10px] uppercase font-bold tracking-[0.25em] text-lidaco-green/60">
-          {isDate ? "Premium Dates" : "Premium Pistachios"}
-        </span>
+      <div className="relative w-full h-64 bg-lidaco-green/10 flex items-center justify-center transition-transform duration-500 group-hover:scale-105">
+        <Image
+          src={src}
+          alt={name}
+          fill
+          className="object-cover"
+          sizes="(max-w-7xl) 50vw, 500px"
+        />
       </div>
     );
   };
@@ -89,7 +79,7 @@ export default async function ProductsPage({
                   {/* Visual Box */}
                   <Link href={`/${locale}/products/${slug}`}>
                     <div className="overflow-hidden border-b border-lidaco-gold/15 cursor-pointer">
-                      {getProductPlaceholder(slug)}
+                      {getProductPlaceholder(slug, name)}
                     </div>
                   </Link>
 

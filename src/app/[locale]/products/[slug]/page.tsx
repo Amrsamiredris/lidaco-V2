@@ -62,32 +62,25 @@ export default async function ProductDetailPage({
   };
 
   const getProductImage = () => {
-    if (slug === "mazafati-bam-dates") {
-      return (
-        <div className="relative w-full aspect-square rounded-3xl overflow-hidden border border-lidaco-gold/25 shadow-2xl">
-          <Image
-            src="/images/mazafati_dates.png"
-            alt="Mazafati Bam Dates"
-            fill
-            className="object-cover"
-            priority
-            sizes="(max-w-7xl) 50vw, 500px"
-          />
-        </div>
-      );
-    }
-
-    const isDate = slug.includes("dates");
+    let src = "/images/mazafati_dates.png";
+    if (slug === "piarom-dates") src = "/images/piarom_dates.png";
+    else if (slug === "kabkab-dates") src = "/images/kabkab_dates.png";
+    else if (slug === "rabi-dates") src = "/images/rabi_dates.png";
+    else if (slug === "akbari-pistachio") src = "/images/akbari_pistachios.png";
+    else if (slug === "ahmad-aghaei-pistachio") src = "/images/ahmad_aghaei_pistachios.png";
+    else if (slug === "fandoghi-pistachio") src = "/images/fandoghi_pistachios.png";
+    else if (slug === "kalleh-ghouchi-pistachio") src = "/images/kalleh_ghouchi_pistachios.png";
 
     return (
-      <div className="relative w-full aspect-square rounded-3xl overflow-hidden border border-lidaco-gold/25 bg-lidaco-green/10 flex flex-col items-center justify-center p-8 shadow-2xl">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#C8A84B_1.5px,transparent_1.5px)] [background-size:24px_24px]" />
-        <span className="text-7xl text-lidaco-gold mb-4 animate-pulse">
-          {isDate ? "🌴" : "🥜"}
-        </span>
-        <span className="text-xs uppercase font-extrabold tracking-[0.3em] text-lidaco-green/60">
-          {isDate ? "Export Quality Dates" : "Export Quality Pistachios"}
-        </span>
+      <div className="relative w-full aspect-square rounded-3xl overflow-hidden border border-lidaco-gold/25 shadow-2xl">
+        <Image
+          src={src}
+          alt={name}
+          fill
+          className="object-cover"
+          priority
+          sizes="(max-w-7xl) 50vw, 500px"
+        />
       </div>
     );
   };
