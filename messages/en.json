@@ -1,0 +1,241 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "packaging": "Packaging",
+    "export": "Export",
+    "catalog": "Catalog",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "label": "Direct from Bam, Iran",
+    "title": "Premium Dates & Pistachios for Global Markets",
+    "description": "We connect Iranian farmers with international buyers through export-grade quality and professional standards.",
+    "ctaPrimary": "View Products",
+    "ctaSecondary": "Download Catalog"
+  },
+  "Products": {
+    "title": "Our Premium Collection",
+    "description": "Lidaco exports the finest Iranian dates and premium pistachios, adhering to international grade standards and custom packaging.",
+    "requestQuote": "Request Quote",
+    "backToList": "Back to Products",
+    "specsLabel": "Specifications",
+    "originLabel": "Origin",
+    "moistureLabel": "Moisture",
+    "skinLabel": "Skin",
+    "packingLabel": "Packaging",
+    "sizeLabel": "Size",
+    "gradeLabel": "Grade",
+    "textureLabel": "Texture",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "Mazafati Bam Dates",
+        "origin": "Bam, Iran",
+        "description": "Mazafati is one of the most famous dates in the world, renowned for its dark, shiny black appearance and exceptionally soft texture.",
+        "specs": ["Dark black color", "Soft texture", "15–25% Moisture"],
+        "details": {
+          "moisture": "15% - 25%",
+          "skin": "Soft, thin, and fully attached",
+          "packing": "600g to 5kg carton or vacuum packed",
+          "grade": "Premium Export Grade A",
+          "texture": "Fleshy, juicy, and caramel-like sweetness"
+        }
+      },
+      "piarom-dates": {
+        "name": "Piarom Dates",
+        "origin": "Hormozgan, Iran",
+        "description": "Piarom (Maryami) dates are semi-dry, dark brown, and possess a uniquely rich, chocolatey flavor with long shelf life.",
+        "specs": ["Semi-dry type", "Thin dark skin", "High nutrient content"],
+        "details": {
+          "moisture": "Below 15% (Semi-dry)",
+          "skin": "Thin, wrinkled, and tightly adhered",
+          "packing": "5kg to 10kg export cartons",
+          "grade": "First Class Selected Grade",
+          "texture": "Chewy, caramel-rich, and non-sticky"
+        }
+      },
+      "kabkab-dates": {
+        "name": "Kabkab Dates",
+        "origin": "Behbaharan, Iran",
+        "description": "Kabkab dates are highly sweet, fleshy dates with a rich golden-brown color and semi-soft texture.",
+        "specs": ["Golden-brown color", "Semi-soft texture", "Fleshy & sweet"],
+        "details": {
+          "moisture": "18% - 20%",
+          "skin": "Thick and wet",
+          "packing": "3kg to 10kg pressed bulk or individual cartons",
+          "grade": "Standard Grade A",
+          "texture": "Soft, moist, and high syrup content"
+        }
+      },
+      "rabi-dates": {
+        "name": "Rabi Dates",
+        "origin": "Sistan-Baluchestan, Iran",
+        "description": "Rabi dates are elongated, dark brown to black dates that are highly popular in international markets, including China.",
+        "specs": ["Dark reddish-black", "Highly popular in Chinese market", "Elongated shape"],
+        "details": {
+          "moisture": "14% - 16% (Semi-dry)",
+          "skin": "Thin and smooth",
+          "packing": "5kg to 10kg cartons or bulk packaging",
+          "grade": "Premium Export",
+          "texture": "Chewy, naturally sweet, and long shelf life"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "Akbari Pistachio",
+        "origin": "Kerman, Iran",
+        "description": "Akbari is the longest variety of pistachio, recognized as the most luxury and premium grade globally.",
+        "specs": ["Longest pistachio variety", "Premium luxury grade", "Easy to shell"],
+        "details": {
+          "size": "20/22 to 24/26",
+          "skin": "Creamy white shell with purple kernel",
+          "packing": "10kg to 25kg vacuum or bulk bags",
+          "grade": "Super Long (Premium Grade A)",
+          "texture": "Crunchy with rich nut fat content"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "Ahmad Aghaei Pistachio",
+        "origin": "Kerman, Iran",
+        "description": "Ahmad Aghaei is a medium-sized, long pistachio featuring a vibrant green kernel and unique aromatic flavor.",
+        "specs": ["Medium size", "Vibrant green kernel", "High yield variety"],
+        "details": {
+          "size": "22/24 to 26/28",
+          "skin": "Bright white shell, red/green kernel",
+          "packing": "25kg double-layer bags",
+          "grade": "Long variety (Grade A)",
+          "texture": "Extra crispy and deeply savory flavor"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "Fandoghi Pistachio",
+        "origin": "Kerman, Iran",
+        "description": "Fandoghi is a round pistachio and the most common variety exported worldwide due to its excellent quality-price ratio.",
+        "specs": ["Round shape", "Most common export variety", "Competitive pricing"],
+        "details": {
+          "size": "28/30 to 30/32",
+          "skin": "Natural creamy shell, green kernel",
+          "packing": "50kg bulk gunny bags or custom cartons",
+          "grade": "Round variety (Standard Export)",
+          "texture": "Crisp and classic pistachio flavor"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "Kalleh Ghouchi Pistachio",
+        "origin": "Kerman, Iran",
+        "description": "Kalleh Ghouchi is a jumbo-sized, round pistachio variety with a rich flavor and wide shell opening.",
+        "specs": ["Jumbo round shape", "Wide naturally open shell", "Rich buttery flavor"],
+        "details": {
+          "size": "20/22 to 22/24",
+          "skin": "Large bone-white shell",
+          "packing": "10kg to 50kg bulk or sacks",
+          "grade": "Jumbo Round (Premium)",
+          "texture": "Buttery, robust crunch, and extra large size"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contact Our Export Team",
+    "description": "Get in touch with our Tehran headquarters to request samples, inquire about export packaging, or receive a bulk quotation.",
+    "fields": {
+      "name": "Full Name",
+      "company": "Company",
+      "country": "Country",
+      "email": "Email Address",
+      "whatsapp": "WhatsApp Number (with country code)",
+      "interest": "Product Interest (Select all that apply)",
+      "quantity": "Required Quantity (kg)",
+      "message": "Message / Special Requirements",
+      "submit": "Submit Export Inquiry"
+    },
+    "directContact": "Direct Communication",
+    "emailLabel": "Email Us",
+    "whatsappLabel": "Chat on WhatsApp",
+    "mapLabel": "Based in Tehran, sourcing from Bam — serving global markets"
+  },
+  "Catalog": {
+    "title": "Product Catalog",
+    "description": "Download our full export catalog with product specs, packaging options, and MOQ details.",
+    "downloadButton": "Download Catalog PDF",
+    "requestQuote": "Request Custom Quote"
+  },
+  "About": {
+    "title": "About Lidaco",
+    "tagline": "Bridging Premium Iranian Agriculture with Global Markets",
+    "storyTitle": "Our Brand Story",
+    "storyContent": "Our journey started in the heart of Bam, where Mazafati dates grow in one of the world's most mineral-rich soils. Lidaco was built to bridge the gap between Iranian farmers and international buyers — without middlemen, without compromise.",
+    "pillarsTitle": "Our Core Value Pillars",
+    "pillars": {
+      "sourcing": {
+        "title": "Direct Sourcing",
+        "description": "We establish direct contracts with farms in Bam and Kerman, ensuring full traceability and fair trade practices."
+      },
+      "standards": {
+        "title": "Export Standards",
+        "description": "Our dates and pistachios are sorted, processed, and packed in state-of-the-art facilities meeting international food standards."
+      },
+      "partnership": {
+        "title": "Long-Term Partnership",
+        "description": "We prioritize consistent supply quality and custom financing agreements to nurture multi-year business relationships."
+      }
+    },
+    "modelTitle": "Business Model",
+    "models": {
+      "ownExport": {
+        "title": "Export of Own Products",
+        "description": "Direct export of Lidaco brand Medjool, Mazafati dates, and premium pistachios from our processing facilities."
+      },
+      "management": {
+        "title": "Export Management Services",
+        "description": "Serving as export agent for local independent farmers, managing regulatory filings, logistics, and quality assurance."
+      },
+      "b2bTrade": {
+        "title": "B2B Trade Networks",
+        "description": "Operating dedicated distribution channels and B2B trade partnerships across China, the Middle East, and Europe."
+      }
+    }
+  },
+  "Packaging": {
+    "title": "Export Packaging Standards",
+    "description": "Our state-of-the-art facilities sort, size, process, and pack dates and pistachios under strict hygienic conditions. We offer tailored packaging solutions to meet specific market regulations.",
+    "retailTitle": "Retail Packaging",
+    "retailDesc": "Premium boxes ranging from 600g to 1kg, designed with custom artwork for supermarket shelves.",
+    "vacuumTitle": "Vacuum Packaging",
+    "vacuumDesc": "Designed to maintain moisture (15-25%) and prolong shelf life, preserving the natural color and taste.",
+    "bulkTitle": "Bulk & Wholesale Packaging",
+    "bulkDesc": "Heavy-duty 5kg, 10kg, 25kg, and 50kg cartons or sacks ideal for bulk distributors and food processing customers."
+  },
+  "Export": {
+    "title": "Global Export & Logistics",
+    "description": "Lidaco manages the complete export lifecycle from sourcing at our farms in Bam and Kerman to delivering premium agricultural goods to international ports.",
+    "step1Title": "1. Direct Sourcing",
+    "step1Desc": "Direct contracts with farmers ensuring traceability, freshness, and quality assurance at origin.",
+    "step2Title": "2. Quality & Processing",
+    "step2Desc": "Hygienic sorting, sizing, and packaging inside modern warehouses meeting international food safety standards.",
+    "step3Title": "3. Customs & Logistics",
+    "step3Desc": "Handling all health inspections, phytosanitary certifications, custom declarations, and prompt shipping from Bandar Abbas port."
+  },
+  "HomePage": {
+    "title": "Experience Lidaco",
+    "subtitle": "Artisanal Premium Dates & Organic Treasures",
+    "description": "Indulge in the finest selection of handpicked dates, dried fruits, and organic products curated for the discerning palate.",
+    "exploreButton": "Explore Collection",
+    "aboutButton": "Our Heritage",
+    "languageSwitcher": "Language",
+    "features": {
+      "dates": {
+        "title": "Select Medjool & Sukkari Dates",
+        "description": "Rich, caramel-like texture and sweetness, hand-harvested at peak ripeness."
+      },
+      "organic": {
+        "title": "100% Organic Products",
+        "description": "Sourced from local farms with strict adherence to natural farming practices."
+      },
+      "gifting": {
+        "title": "Bespoke Gift Boxes",
+        "description": "Elegantly packaged assortments perfect for sharing and celebration."
+      }
+    }
+  }
+}

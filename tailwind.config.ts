@@ -11,6 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "lidaco-green": "#3B4A2F",
+        "lidaco-gold": "#C8A84B",
+        "lidaco-cream": "#F5EFE0",
+        "lidaco-brown": "#6B4423",
+      },
+      fontFamily: {
+        sans: ["var(--font-montserrat)", "Montserrat", "sans-serif"],
       },
     },
   },

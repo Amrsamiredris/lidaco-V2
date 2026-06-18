@@ -1,0 +1,241 @@
+{
+  "Navbar": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "我们的产品",
+    "packaging": "包装设计",
+    "export": "出口业务",
+    "catalog": "产品目录",
+    "contact": "联系我们"
+  },
+  "Hero": {
+    "label": "源自伊朗巴姆直供",
+    "title": "面向全球市场的特级椰枣与开心果",
+    "description": "我们以出口级的品质和专业化标准，将伊朗农户与国际买家紧密相连。",
+    "ctaPrimary": "查看产品",
+    "ctaSecondary": "下载目录"
+  },
+  "Products": {
+    "title": "我们的精选产品系列",
+    "description": "Lidaco 出口伊朗最优质的椰枣和特级开心果，严格遵守国际品质标准，并提供定制化包装服务。",
+    "requestQuote": "索取报价",
+    "backToList": "返回产品列表",
+    "specsLabel": "规格参数",
+    "originLabel": "原产地",
+    "moistureLabel": "水分",
+    "skinLabel": "果皮",
+    "packingLabel": "包装形式",
+    "sizeLabel": "规格大小",
+    "gradeLabel": "等级",
+    "textureLabel": "质地/口感",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "巴姆马哲尔椰枣",
+        "origin": "伊朗巴姆",
+        "description": "马哲尔是世界上最著名的椰枣品种之一，以其黑亮外观和极度软糯的口感而闻名。",
+        "specs": ["黑亮外观", "软糯质地", "15–25% 水分"],
+        "details": {
+          "moisture": "15% - 25%",
+          "skin": "柔软纤薄，果肉紧密相连",
+          "packing": "600克至5公斤纸盒装或真空包装",
+          "grade": "特级出口 A 级",
+          "texture": "肉质厚实、多汁，焦糖般的清甜"
+        }
+      },
+      "piarom-dates": {
+        "name": "皮亚荣椰枣",
+        "origin": "伊朗霍尔木兹甘",
+        "description": "皮亚荣（Maryami）椰枣呈半干状态，深褐色，具有独特的巧克力风味，保质期极长。",
+        "specs": ["半干椰枣类型", "纤薄深色果皮", "高营养成分"],
+        "details": {
+          "moisture": "低于 15% (半干)",
+          "skin": "薄而微皱，贴合紧密",
+          "packing": "5公斤至10公斤出口纸箱装",
+          "grade": "一等精选级",
+          "texture": "有嚼劲、焦糖般醇香、不黏手"
+        }
+      },
+      "kabkab-dates": {
+        "name": "卡布卡布椰枣",
+        "origin": "伊朗贝赫巴汉",
+        "description": "卡布卡布椰枣是一种高甜度、肉质丰满的椰枣，呈现出浓郁的金褐色，半软质地。",
+        "specs": ["金褐色外观", "半软糯质地", "肉厚高甜度"],
+        "details": {
+          "moisture": "18% - 20%",
+          "skin": "较厚，带有湿润感",
+          "packing": "3公斤至10公斤压实散装或独立纸盒",
+          "grade": "标准 A 级",
+          "texture": "软糯、多汁、天然糖浆含量高"
+        }
+      },
+      "rabi-dates": {
+        "name": "拉比椰枣",
+        "origin": "伊朗锡斯坦-俾路支斯坦",
+        "description": "拉比椰枣呈长条形，呈深褐色至黑色，在包括中国在内的国际市场中深受欢迎。",
+        "specs": ["深红黑色外观", "在中国市场极具人气", "长条饱满外形"],
+        "details": {
+          "moisture": "14% - 16% (半干)",
+          "skin": "薄而光滑",
+          "packing": "5公斤至10公斤纸盒或散装",
+          "grade": "特级出口级",
+          "texture": "有嚼劲，天然甘甜，保质期长"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "阿克巴里开心果",
+        "origin": "伊朗克尔曼",
+        "description": "阿克巴里是果实最长的开心果品种，在国际上被公认为最奢华和优质的级别。",
+        "specs": ["果实最长品种", "顶级奢华品质", "易剥壳设计"],
+        "details": {
+          "size": "20/22 至 24/26",
+          "skin": "奶白色外壳搭配紫色果仁",
+          "packing": "10公斤至25公斤真空袋或散装",
+          "grade": "超长型 (特级 A 级)",
+          "texture": "爽脆可口，油脂与坚果香气浓郁"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "艾哈迈德阿盖开心果",
+        "origin": "伊朗克尔曼",
+        "description": "艾哈迈德阿盖是一种中等大小的长型开心果，果仁呈现鲜绿色，香气独特。",
+        "specs": ["中等大小", "鲜绿开心果仁", "高产优质品种"],
+        "details": {
+          "size": "22/24 至 26/28",
+          "skin": "亮白外壳，红绿相间果仁",
+          "packing": "25公斤双层防潮袋",
+          "grade": "长型品种 (A 级)",
+          "texture": "格外香脆，浓郁咸香风味"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "芬多吉开心果",
+        "origin": "伊朗克尔曼",
+        "description": "芬多吉开心果呈圆形，由于其极高的性价比，是全球出口量最大的伊朗开心果品种。",
+        "specs": ["浑圆果形", "全球出口主流品种", "极具竞争力的价格"],
+        "details": {
+          "size": "28/30 至 30/32",
+          "skin": "天然乳白色壳，绿色果仁",
+          "packing": "50公斤散装麻袋或定制纸箱",
+          "grade": "圆型品种 (标准出口级)",
+          "texture": "爽脆，经典开心果风味"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "羊头开心果",
+        "origin": "伊朗克尔曼",
+        "description": "羊头（Kalleh Ghouchi）开心果是一种超大圆型的开心果，风味醇厚，自然开口度大。",
+        "specs": ["超大圆型果形", "天然宽大开口", "醇厚黄油般香气"],
+        "details": {
+          "size": "20/22 至 22/24",
+          "skin": "大号骨白外壳",
+          "packing": "10公斤至50公斤散装或麻袋装",
+          "grade": "羊头圆果 (特级)",
+          "texture": "黄油风味，饱满酥脆，超大果仁"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "联系我们的出口团队",
+    "description": "与我们德黑兰总部取得联系，索取样品、咨询出口包装或获取大宗商品报价。",
+    "fields": {
+      "name": "姓名",
+      "company": "公司名称",
+      "country": "国家/地区",
+      "email": "电子邮箱",
+      "whatsapp": "WhatsApp 号码 (请带上国家区号)",
+      "interest": "感兴趣的产品 (可多选)",
+      "quantity": "采购需求数量 (千克/kg)",
+      "message": "需求描述 / 特殊包装要求",
+      "submit": "提交出口询盘"
+    },
+    "directContact": "直接沟通渠道",
+    "emailLabel": "发送邮件",
+    "whatsappLabel": "WhatsApp 在线咨询",
+    "mapLabel": "总部位于德黑兰，源自巴姆直供 —— 服务全球市场"
+  },
+  "Catalog": {
+    "title": "产品目录",
+    "description": "下载我们的完整出口产品目录，包含产品规格、包装选项及最小起订量（MOQ）详情。",
+    "downloadButton": "下载产品目录 PDF",
+    "requestQuote": "索取定制报价"
+  },
+  "About": {
+    "title": "关于 Lidaco",
+    "tagline": "将伊朗优质农业与全球市场相连",
+    "storyTitle": "品牌故事",
+    "storyContent": "我们的旅程始于巴姆的心脏地带，那里的马哲尔椰枣生长在世界上矿物质最丰富的土壤中。Lidaco 的建立旨在搭建伊朗农户与国际买家之间的桥梁 —— 无中间商，无妥协。",
+    "pillarsTitle": "我们的核心价值支柱",
+    "pillars": {
+      "sourcing": {
+        "title": "直供货源",
+        "description": "我们与巴姆和克尔曼的农场直接签订合同，确保完整的可追溯性和公平贸易实践。"
+      },
+      "standards": {
+        "title": "出口标准",
+        "description": "我们的椰枣和开心果在符合国际食品安全标准的现代化设施中进行分拣、加工和包装。"
+      },
+      "partnership": {
+        "title": "长期伙伴关系",
+        "description": "我们优先保证稳定的供应质量和定制化的金融协议，以培养多年的商业合作关系。"
+      }
+    },
+    "modelTitle": "商业模式",
+    "models": {
+      "ownExport": {
+        "title": "自有产品出口",
+        "description": "从我们的加工设施直接出口 Lidaco 品牌的麦哲尔、马哲尔椰枣和特级开心果。"
+      },
+      "management": {
+        "title": "出口管理服务",
+        "description": "为当地独立农户担任出口代理，管理监管申报、物流和质量保证。"
+      },
+      "b2bTrade": {
+        "title": "B2B 贸易网络",
+        "description": "在中国、中东和欧洲运营专门的分销渠道及 B2B 贸易合作伙伴关系。"
+      }
+    }
+  },
+  "Packaging": {
+    "title": "出口包装标准",
+    "description": "我们先进的设施在严格的卫生条件下对椰枣和开心果进行分拣、分级、加工和包装。我们提供定制的包装解决方案以满足特定的市场法规。",
+    "retailTitle": "零售包装",
+    "retailDesc": "600克至1公斤的优质包装盒，专为超市货架定制设计。",
+    "vacuumTitle": "真空包装",
+    "vacuumDesc": "旨在保持水分（15-25%）并延长保质期，锁住天然色泽和风味。",
+    "bulkTitle": "散装与批发包装",
+    "bulkDesc": "耐用的5公斤、10公斤、25公斤和50公斤纸箱或袋装，非常适合散装分销商和食品加工客户。"
+  },
+  "Export": {
+    "title": "全球出口与物流",
+    "description": "Lidaco 管理完整的出口生命周期，从我们位于巴姆和克尔曼的农场采购，到将优质农产品运送到国际港口。",
+    "step1Title": "1. 直供货源",
+    "step1Desc": "与农户直接签订合同，确保源头的可追溯性、新鲜度和质量保证。",
+    "step2Title": "2. 质量与加工",
+    "step2Desc": "在符合国际食品安全标准的现代化仓库内进行卫生分拣、分级和包装。",
+    "step3Title": "3. 海关与物流",
+    "step3Desc": "处理所有卫生检验、植物检疫证书、海关申报以及从巴尔阿巴斯港快速装运。"
+  },
+  "HomePage": {
+    "title": "品味 Lidaco",
+    "subtitle": "手工特级椰枣与有机天然珍品",
+    "description": "尽情享受为挑剔味蕾精心调配的精选椰枣、干果和有机产品。",
+    "exploreButton": "探索系列",
+    "aboutButton": "我们的传承",
+    "languageSwitcher": "语言",
+    "features": {
+      "dates": {
+        "title": "精选麦哲尔和苏卡里椰枣",
+        "description": "浓郁的焦糖般质感与甜度，在成熟巅峰期手工采摘。"
+      },
+      "organic": {
+        "title": "100% 有机产品",
+        "description": "源自当地农场，严格遵守自然耕作规范。"
+      },
+      "gifting": {
+        "title": "定制礼盒",
+        "description": "包装优雅的精选组合，适合分享和庆祝。"
+      }
+    }
+  }
+}
