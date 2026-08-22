@@ -1,0 +1,274 @@
+{
+  "Navbar": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "products": "Produits",
+    "packaging": "Conditionnement",
+    "export": "Exportation",
+    "catalog": "Catalogue",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "label": "Directement de Bam, Iran",
+    "title": "Dattes & Pistaches d'Exception pour les Marchés Mondiaux",
+    "description": "Nous relions directement les producteurs iraniens aux acheteurs internationaux selon les plus hauts standards d'exportation.",
+    "ctaPrimary": "Découvrir les Produits",
+    "ctaSecondary": "Télécharger le Catalogue"
+  },
+  "Products": {
+    "title": "Notre Collection Haut de Gamme",
+    "description": "Lidaco exporte les meilleures dattes et pistaches iraniennes, dans le respect rigoureux des calibres internationaux et d'un emballage sur mesure.",
+    "requestQuote": "Demander un Devis",
+    "backToList": "Retour aux Produits",
+    "learnMore": "En Savoir Plus",
+    "specsLabel": "Spécifications",
+    "originLabel": "Origine",
+    "moistureLabel": "Humidité",
+    "skinLabel": "Peau",
+    "packingLabel": "Emballage",
+    "sizeLabel": "Calibre",
+    "gradeLabel": "Qualité",
+    "textureLabel": "Texture",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "Dattes Mazafati de Bam",
+        "origin": "Bam, Iran",
+        "description": "La datte Mazafati est mondialement réputée pour sa robe noire et brillante, sa chair fondante et sa douceur délicate.",
+        "specs": [
+          "Robe noire intense",
+          "Texture très tendre",
+          "Humidité 15–25%"
+        ],
+        "details": {
+          "moisture": "15% - 25%",
+          "skin": "Fine, lisse et parfaitement adhérente",
+          "packing": "Boîtes de 600g à 5kg ou sous vide",
+          "grade": "Qualité Supérieure Export Grade A",
+          "texture": "Charnue, juteuse et notes de caramel"
+        }
+      },
+      "piarom-dates": {
+        "name": "Dattes Piarom (Maryami)",
+        "origin": "Hormozgan, Iran",
+        "description": "Datte semi-sèche d'une teinte brun foncé, réputée pour son goût chocolaté unique et sa longue durée de conservation.",
+        "specs": [
+          "Type semi-sec",
+          "Peau fine foncée",
+          "Haute teneur en nutriments"
+        ],
+        "details": {
+          "moisture": "Moins de 15% (Semi-sèche)",
+          "skin": "Fine, plissée et bien adhérente",
+          "packing": "Cartons d'exportation de 5kg à 10kg",
+          "grade": "Première Sélection",
+          "texture": "Ferme, fondante et non collante"
+        }
+      },
+      "kabkab-dates": {
+        "name": "Dattes Kabkab",
+        "origin": "Behbahan, Iran",
+        "description": "Dattes très douces et charnues d'une belle couleur brun doré, riches en sirop naturel.",
+        "specs": [
+          "Couleur brun doré",
+          "Texture semi-moelleuse",
+          "Charnue et mielleuse"
+        ],
+        "details": {
+          "moisture": "18% - 20%",
+          "skin": "Épaisse et moelleuse",
+          "packing": "Cartons pressés de 3kg à 10kg ou boîtes individuelles",
+          "grade": "Standard Grade A",
+          "texture": "Moelleuse, très sucrée et sirupeuse"
+        }
+      },
+      "rabi-dates": {
+        "name": "Dattes Rabi",
+        "origin": "Sistan-et-Baloutchistan, Iran",
+        "description": "Dattes allongées de couleur brun foncé à noir, particulièrement appréciées sur les marchés internationaux.",
+        "specs": [
+          "Couleur noir rougeâtre",
+          "Très prisée à l'international",
+          "Forme allongée"
+        ],
+        "details": {
+          "moisture": "14% - 16% (Semi-sèche)",
+          "skin": "Fine et lisse",
+          "packing": "Cartons de 5kg à 10kg ou vrac",
+          "grade": "Export Premium",
+          "texture": "Moelleuse, goût naturellement doux et longue conservation"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "Pistaches Akbari",
+        "origin": "Kerman, Iran",
+        "description": "L'Akbari est la variété la plus allongée et la plus prestigieuse au monde, symbole de luxe et d'élégance gastronomique.",
+        "specs": [
+          "Variété la plus longue",
+          "Qualité grand luxe",
+          "Ouverture facile"
+        ],
+        "details": {
+          "size": "20/22 à 24/26 pièces/once",
+          "skin": "Coque blanc ivoire et cœur pourpre",
+          "packing": "Sacs sous vide ou vrac de 10kg à 25kg",
+          "grade": "Super Long (Grade A Premium)",
+          "texture": "Croquante et riche en huiles végétales nobles"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "Pistaches Ahmad Aghaei",
+        "origin": "Kerman, Iran",
+        "description": "Pistache longue de taille moyenne au cœur vert éclatant et à la saveur intensément parfumée.",
+        "specs": [
+          "Taille moyenne allongée",
+          "Cœur vert vif",
+          "Excellente saveur"
+        ],
+        "details": {
+          "size": "22/24 à 26/28 pièces/once",
+          "skin": "Coque blanc brillant, cœur rouge/vert",
+          "packing": "Sacs double couche de 25kg",
+          "grade": "Variété Longue (Grade A)",
+          "texture": "Très croquante et parfumée"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "Pistaches Fandoghi (Ronde)",
+        "origin": "Kerman, Iran",
+        "description": "Pistache ronde emblématique, la plus exportée au monde en raison de son rapport qualité-prix remarquable.",
+        "specs": [
+          "Forme ronde",
+          "Variété la plus exportée",
+          "Tarifs très compétitifs"
+        ],
+        "details": {
+          "size": "28/30 à 30/32 pièces/once",
+          "skin": "Coque crème naturelle, cœur vert",
+          "packing": "Sacs de jute de 50kg ou cartons sur mesure",
+          "grade": "Variété Ronde (Standard Export)",
+          "texture": "Croquante, au goût authentique de pistache"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "Pistaches Kalleh Ghouchi (Jumbo)",
+        "origin": "Kerman, Iran",
+        "description": "Pistache ronde géante (Jumbo) avec une large ouverture naturelle et une généreuse saveur beurrée.",
+        "specs": [
+          "Calibre Jumbo rond",
+          "Coque largement ouverte",
+          "Saveur riche et beurrée"
+        ],
+        "details": {
+          "size": "20/22 à 22/24 pièces/once",
+          "skin": "Grande coque blanc cassé",
+          "packing": "Sacs et cartons de 10kg à 50kg",
+          "grade": "Jumbo Rond (Premium)",
+          "texture": "Croquant généreux et goût fondant"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contactez Notre Équipe Export",
+    "description": "Entrez en contact avec notre siège à Téhéran pour recevoir des échantillons, définir vos besoins de conditionnement ou obtenir un devis de gros.",
+    "fields": {
+      "name": "Nom Complet",
+      "company": "Société",
+      "country": "Pays",
+      "email": "Adresse E-mail",
+      "whatsapp": "Numéro WhatsApp (avec indicatif pays)",
+      "interest": "Produits Souhaités",
+      "quantity": "Volume Requis (kg)",
+      "message": "Message / Exigences Particulières",
+      "submit": "Envoyer la Demande d'Exportation"
+    },
+    "directContact": "Contact Direct",
+    "emailLabel": "Par E-mail",
+    "whatsappLabel": "Sur WhatsApp",
+    "mapLabel": "Siège à Téhéran, approvisionnement direct depuis Bam et Kerman vers tous les ports mondiaux"
+  },
+  "Catalog": {
+    "title": "Catalogue Produits",
+    "description": "Téléchargez notre catalogue officiel avec spécifications techniques, options de conditionnement et quantités minimales (MOQ).",
+    "downloadButton": "Télécharger le Catalogue PDF",
+    "requestQuote": "Demander un Devis Personnalisé"
+  },
+  "About": {
+    "title": "À Propos de Lidaco",
+    "tagline": "Le pont entre l'agriculture d'excellence iranienne et les marchés internationaux",
+    "storyTitle": "Notre Histoire",
+    "storyContent": "Notre aventure a débuté à Bam, où les dattes Mazafati puisent leur saveur dans une terre exceptionnellement riche. Lidaco a été créée pour bâtir un pont direct entre producteurs locaux et acheteurs mondiaux, sans intermédiaires et sans compromis.",
+    "pillarsTitle": "Nos Piliers de Valeur",
+    "pillars": {
+      "sourcing": {
+        "title": "Approvisionnement Direct",
+        "description": "Contrats directs avec les producteurs de Bam et Kerman, garantissant traçabilité et éthique."
+      },
+      "standards": {
+        "title": "Standards Internationaux",
+        "description": "Tri, calibrage et conditionnement réalisés dans des unités modernes conformes aux normes d'hygiène alimentaire."
+      },
+      "partnership": {
+        "title": "Partenariat Durable",
+        "description": "Nous misons sur la régularité des approvisionnements et la flexibilité financière pour des relations pérennes."
+      }
+    },
+    "modelTitle": "Modèle Économique",
+    "models": {
+      "ownExport": {
+        "title": "Export de Marque Propre",
+        "description": "Exportation directe de dattes Mazafati et pistaches sous la marque de prestige Lidaco."
+      },
+      "management": {
+        "title": "Gestion Déléguée d'Exportation",
+        "description": "Accompagnement des producteurs : certification sanitaire, douane et affrètement maritime."
+      },
+      "b2bTrade": {
+        "title": "Réseaux Commerciaux B2B",
+        "description": "Canaux de distribution spécialisés en Chine, au Moyen-Orient et en Europe."
+      }
+    }
+  },
+  "Packaging": {
+    "title": "Normes de Conditionnement Export",
+    "description": "Nos unités ultramodernes trient, calibrent et emballent vos marchandises dans des conditions d'hygiène strictes et adaptées aux exigences de vos marchés.",
+    "retailTitle": "Conditionnement Détail & Grande Distribution",
+    "retailDesc": "Boîtes soignées de 600g à 1kg avec design personnalisé pour les rayons de supermarchés.",
+    "vacuumTitle": "Sous Vide Protecteur",
+    "vacuumDesc": "Maintient l'humidité idéale (15-25%) et prolonge la fraîcheur, le goût et l'aspect naturel.",
+    "bulkTitle": "Emballage de Gros (Vrac)",
+    "bulkDesc": "Cartons et sacs renforcés de 5kg, 10kg, 25kg et 50kg pour grossistes et transformateurs agroalimentaires."
+  },
+  "Export": {
+    "title": "Exportation & Logistique Internationale",
+    "description": "Lidaco supervise l'intégralité de la chaîne, depuis la récolte à Bam et Kerman jusqu'à la livraison dans les ports mondiaux.",
+    "step1Title": "1. Approvisionnement à la Source",
+    "step1Desc": "Contrats directs assurant fraîcheur, traçabilité et contrôle qualité strict dès la récolte.",
+    "step2Title": "2. Traitement & Hygiène",
+    "step2Desc": "Calibrage minutieux et emballage dans des entrepôts climatisés répondant aux normes internationales.",
+    "step3Title": "3. Douane & Fret Maritime",
+    "step3Desc": "Certifications phytosanitaires, déclarations douanières et départs maritimes rapides depuis Bandar Abbas."
+  },
+  "HomePage": {
+    "title": "L'Univers Lidaco",
+    "subtitle": "Dattes Rares & Saveurs Naturelles d'Exception",
+    "description": "Découvrez une sélection rigoureuse de dattes et pistaches d'origine récoltées à la main pour les gourmets et professionnels exigeants.",
+    "exploreButton": "Explorer la Collection",
+    "aboutButton": "Notre Histoire",
+    "languageSwitcher": "Langue",
+    "features": {
+      "dates": {
+        "title": "Dattes Mazafati Sélectionnées",
+        "description": "Moelleux incomparable et douceur naturelle, récoltées manuellement à parfaite maturité."
+      },
+      "organic": {
+        "title": "Produits 100% Naturels",
+        "description": "Issus d'exploitations agricoles engagées dans le respect des sols et des méthodes traditionnelles."
+      },
+      "gifting": {
+        "title": "Coffrets Cadeaux Prestigieux",
+        "description": "Écrins élégants pensés pour vos célébrations et présents professionnels de prestige."
+      }
+    }
+  }
+}

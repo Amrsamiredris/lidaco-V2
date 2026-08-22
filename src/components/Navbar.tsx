@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
+import { routing, localeDetails, Locale } from "@/i18n/routing";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 
 interface NavLink {
   key: string;
@@ -13,7 +15,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
-  const currentLocale = useLocale();
+  const currentLocale = useLocale() as Locale;
   const t = useTranslations("Navbar");
 
   const navLinks: NavLink[] = [
@@ -27,7 +29,10 @@ export default function Navbar() {
   ];
 
   const switchLocale = (newLocale: string) => {
-    if (newLocale === currentLocale) return;
+    if (newLocale === currentLocale) {
+      setIsOpen(false);
+      return;
+    }
 
     // Split the pathname to replace the locale
     const segments = pathname.split("/");
@@ -45,7 +50,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full bg-lidaco-cream text-lidaco-green transition-all duration-300">
+    <header className="sticky top-0 z-50 w-full bg-lidaco-cream text-lidaco-green transition-all duration-300 shadow-sm border-b border-lidaco-gold/10">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 h-20">
         {/* Lidaco Logo Left */}
         <div className="flex items-center gap-2 cursor-pointer" onClick={() => router.push(`/${currentLocale}`)}>
@@ -68,7 +73,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Nav Links Center */}
-        <nav className="hidden lg:flex items-center gap-8 text-[13px] font-bold tracking-[0.15em] uppercase">
+        <nav className="hidden lg:flex items-center gap-7 text-[12.5px] font-bold tracking-[0.12em] uppercase">
           {navLinks.map((link) => {
             const active = isActive(link.path);
             return (
@@ -92,24 +97,8 @@ export default function Navbar() {
         </nav>
 
         {/* Desktop Language Switcher Right */}
-        <div className="hidden lg:flex items-center text-xs font-bold tracking-widest">
-          <button
-            onClick={() => switchLocale("en")}
-            className={`transition-colors duration-300 hover:text-lidaco-gold ${
-              currentLocale === "en" ? "text-lidaco-green font-extrabold" : "text-lidaco-green/50"
-            }`}
-          >
-            EN
-          </button>
-          <span className="mx-2 text-lidaco-gold/40">|</span>
-          <button
-            onClick={() => switchLocale("zh")}
-            className={`transition-colors duration-300 hover:text-lidaco-gold ${
-              currentLocale === "zh" ? "text-lidaco-green font-extrabold" : "text-lidaco-green/50"
-            }`}
-          >
-            中文
-          </button>
+        <div className="hidden lg:flex items-center">
+          <LocaleSwitcher />
         </div>
 
         {/* Mobile Hamburger Button */}
@@ -140,11 +129,11 @@ export default function Navbar() {
 
       {/* Mobile Slide-down Drawer */}
       <div
-        className={`lg:hidden w-full bg-lidaco-cream absolute left-0 right-0 top-20 z-40 transition-all duration-300 ease-in-out border-b border-lidaco-gold/5 ${
-          isOpen ? "max-h-screen opacity-100 py-8 px-6" : "max-h-0 opacity-0 overflow-hidden"
+        className={`lg:hidden w-full bg-lidaco-cream absolute left-0 right-0 top-20 z-40 transition-all duration-300 ease-in-out border-b border-lidaco-gold/20 shadow-xl ${
+          isOpen ? "max-h-[85vh] opacity-100 py-6 px-6 overflow-y-auto" : "max-h-0 opacity-0 overflow-hidden"
         }`}
       >
-        <div className="flex flex-col space-y-6 text-center">
+        <div className="flex flex-col space-y-4 text-center">
           {navLinks.map((link) => {
             const active = isActive(link.path);
             return (
@@ -161,27 +150,38 @@ export default function Navbar() {
             );
           })}
 
-          <div className="h-[1px] bg-lidaco-gold/15 w-1/4 mx-auto my-4" />
+          <div className="h-[1px] bg-lidaco-gold/20 w-3/4 mx-auto my-2" />
 
-          {/* Mobile Language Switcher */}
-          <div className="flex items-center justify-center text-sm font-bold tracking-widest">
-            <button
-              onClick={() => switchLocale("en")}
-              className={`px-4 py-2 transition-colors duration-300 ${
-                currentLocale === "en" ? "text-lidaco-green font-extrabold" : "text-lidaco-green/50"
-              }`}
-            >
-              EN
-            </button>
-            <span className="text-lidaco-gold/40">|</span>
-            <button
-              onClick={() => switchLocale("zh")}
-              className={`px-4 py-2 transition-colors duration-300 ${
-                currentLocale === "zh" ? "text-lidaco-green font-extrabold" : "text-lidaco-green/50"
-              }`}
-            >
-              中文
-            </button>
+          {/* Mobile Language Grid */}
+          <div className="pt-2">
+            <div className="text-[11px] font-bold uppercase tracking-widest text-lidaco-gold mb-3">
+              Select Language / اختر اللغة
+            </div>
+            <div className="grid grid-cols-2 gap-2 max-w-sm mx-auto">
+              {routing.locales.map((loc) => {
+                const details = localeDetails[loc];
+                const isSelected = loc === currentLocale;
+                return (
+                  <button
+                    key={loc}
+                    onClick={() => switchLocale(loc)}
+                    className={`flex items-center justify-between px-3 py-2 text-xs rounded-xl border transition-all duration-200 ${
+                      isSelected
+                        ? "bg-lidaco-green text-lidaco-cream font-bold border-lidaco-gold shadow-sm"
+                        : "bg-lidaco-green/5 text-lidaco-green hover:bg-lidaco-green/10 border-lidaco-gold/20"
+                    }`}
+                  >
+                    <span className="flex items-center gap-2">
+                      <span>{details.flag}</span>
+                      <span>{details.nativeName}</span>
+                    </span>
+                    <span className={`text-[10px] uppercase font-bold ${isSelected ? "text-lidaco-gold" : "text-lidaco-green/50"}`}>
+                      {loc}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

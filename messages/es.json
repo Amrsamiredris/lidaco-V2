@@ -1,0 +1,274 @@
+{
+  "Navbar": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "packaging": "Envasado",
+    "export": "Exportación",
+    "catalog": "Catálogo",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "label": "Directo desde Bam, Irán",
+    "title": "Dátiles y Pistachos Premium para Mercados Globales",
+    "description": "Conectamos a agricultores iraníes con compradores internacionales a través de una calidad de exportación y estándares profesionales.",
+    "ctaPrimary": "Ver Productos",
+    "ctaSecondary": "Descargar Catálogo"
+  },
+  "Products": {
+    "title": "Nuestra Colección Premium",
+    "description": "Lidaco exporta los mejores dátiles y pistachos iraníes, cumpliendo con los más altos estándares internacionales de graduación y empaque personalizado.",
+    "requestQuote": "Solicitar Cotización",
+    "backToList": "Volver a Productos",
+    "learnMore": "Saber Más",
+    "specsLabel": "Especificaciones",
+    "originLabel": "Origen",
+    "moistureLabel": "Humedad",
+    "skinLabel": "Piel",
+    "packingLabel": "Empaque",
+    "sizeLabel": "Calibre",
+    "gradeLabel": "Calidad",
+    "textureLabel": "Textura",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "Dátiles Mazafati Bam",
+        "origin": "Bam, Irán",
+        "description": "El dátil Mazafati es uno de los más afamados del mundo, reconocido por su brillante color negro y su textura extraordinariamente suave y jugosa.",
+        "specs": [
+          "Color negro intenso",
+          "Textura suave y tierna",
+          "15–25% de Humedad"
+        ],
+        "details": {
+          "moisture": "15% - 25%",
+          "skin": "Fina, suave y completamente adherida",
+          "packing": "Cajas de 600g a 5kg o envasado al vacío",
+          "grade": "Grado A de Exportación Premium",
+          "texture": "Carnoso, jugoso y con dulzura caramelizada"
+        }
+      },
+      "piarom-dates": {
+        "name": "Dátiles Piarom (Maryami)",
+        "origin": "Hormozgán, Irán",
+        "description": "Dátiles semiseccos de tono marrón oscuro con un exquisito sabor achocolatado y una excelente vida útil.",
+        "specs": [
+          "Tipo semisecco",
+          "Piel fina oscura",
+          "Alto valor nutricional"
+        ],
+        "details": {
+          "moisture": "Menos del 15% (Semisecco)",
+          "skin": "Fina, arrugada y firmemente adherida",
+          "packing": "Cajas de exportación de 5kg a 10kg",
+          "grade": "Selección de Primera Clase",
+          "texture": "Firme, masticable y no pegajoso"
+        }
+      },
+      "kabkab-dates": {
+        "name": "Dátiles Kabkab",
+        "origin": "Behbahán, Irán",
+        "description": "Dátiles muy dulces y carnosos con un tono marrón dorado y textura semiblanda, ricos en almíbar natural.",
+        "specs": [
+          "Color marrón dorado",
+          "Textura semiblanda",
+          "Carnoso y muy dulce"
+        ],
+        "details": {
+          "moisture": "18% - 20%",
+          "skin": "Gruesa y húmeda",
+          "packing": "Cajas prensadas de 3kg a 10kg o envases individuales",
+          "grade": "Estándar Grado A",
+          "texture": "Suave, húmedo y con alto contenido de sirope natural"
+        }
+      },
+      "rabi-dates": {
+        "name": "Dátiles Rabi",
+        "origin": "Sistán y Baluchistán, Irán",
+        "description": "Dátiles alargados de color marrón oscuro a negro, altamente cotizados en los mercados de Asia y Europa.",
+        "specs": [
+          "Color negro rojizo",
+          "Muy solicitado en mercados globales",
+          "Forma alargada"
+        ],
+        "details": {
+          "moisture": "14% - 16% (Semisecco)",
+          "skin": "Fina y lisa",
+          "packing": "Cajas de 5kg a 10kg o a granel",
+          "grade": "Exportación Premium",
+          "texture": "Masticable, dulzura natural y larga conservación"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "Pistacho Akbari",
+        "origin": "Kermán, Irán",
+        "description": "El Akbari es la variedad más alargada de pistacho, reconocida globalmente como el producto de mayor lujo y distinción.",
+        "specs": [
+          "Variedad más larga del mundo",
+          "Grado de lujo superior",
+          "Fácil apertura"
+        ],
+        "details": {
+          "size": "20/22 a 24/26 frutos/onza",
+          "skin": "Cáscara blanca marfil con núcleo púrpura",
+          "packing": "Bolsas al vacío o a granel de 10kg a 25kg",
+          "grade": "Super Long (Grado A Premium)",
+          "texture": "Crujiente y rico en aceites naturales"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "Pistacho Ahmad Aghaei",
+        "origin": "Kermán, Irán",
+        "description": "Pistacho alargado mediano con núcleo verde vivo y un aroma inconfundible, muy valorado en confitería y aperitivos.",
+        "specs": [
+          "Tamaño mediano alargado",
+          "Núcleo verde vibrante",
+          "Excelente rendimiento"
+        ],
+        "details": {
+          "size": "22/24 a 26/28 frutos/onza",
+          "skin": "Cáscara blanca brillante, grano rojo/verde",
+          "packing": "Sacos de doble capa de 25kg",
+          "grade": "Variedad Larga (Grado A)",
+          "texture": "Extra crujiente y de sabor intenso"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "Pistacho Fandoghi (Redondo)",
+        "origin": "Kermán, Irán",
+        "description": "El pistacho redondo Fandoghi es el más exportado del mundo gracias a su inmejorable relación calidad-precio.",
+        "specs": [
+          "Forma redonda",
+          "Principal variedad exportada",
+          "Precio altamente competitivo"
+        ],
+        "details": {
+          "size": "28/30 a 30/32 frutos/onza",
+          "skin": "Cáscara crema natural, grano verde",
+          "packing": "Sacos de yute de 50kg o cajas a medida",
+          "grade": "Variedad Redonda (Exportación Estándar)",
+          "texture": "Crujiente y con sabor clásico a pistacho"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "Pistacho Kalleh Ghouchi (Jumbo)",
+        "origin": "Kermán, Irán",
+        "description": "Variedad redonda de tamaño gigante (Jumbo) con apertura ancha de cáscara y un sabor mantecoso irresistible.",
+        "specs": [
+          "Tamaño Jumbo redondo",
+          "Cáscara abierta naturalmente",
+          "Sabor mantecoso intenso"
+        ],
+        "details": {
+          "size": "20/22 a 22/24 frutos/onza",
+          "skin": "Gran cáscara blanco hueso",
+          "packing": "Sacos y cajas a granel de 10kg a 50kg",
+          "grade": "Jumbo Redondo (Premium)",
+          "texture": "Crocante robusto y grano voluminoso"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contacte con Nuestro Equipo de Exportación",
+    "description": "Póngase en contacto con nuestra sede en Teherán para solicitar muestras, coordinar especificaciones de empaque o recibir una cotización mayorista.",
+    "fields": {
+      "name": "Nombre Completo",
+      "company": "Empresa",
+      "country": "País",
+      "email": "Correo Electrónico",
+      "whatsapp": "Número de WhatsApp (con código de país)",
+      "interest": "Productos de Interés",
+      "quantity": "Cantidad Requerida (kg)",
+      "message": "Mensaje / Requerimientos Especiales",
+      "submit": "Enviar Solicitud de Exportación"
+    },
+    "directContact": "Comunicación Directa",
+    "emailLabel": "Escríbanos",
+    "whatsappLabel": "Chat en WhatsApp",
+    "mapLabel": "Sede en Teherán, suministro directo desde Bam y Kermán hacia puertos globales"
+  },
+  "Catalog": {
+    "title": "Catálogo de Productos",
+    "description": "Descargue nuestro catálogo oficial con fichas técnicas, opciones de embalaje y cantidades mínimas de pedido (MOQ).",
+    "downloadButton": "Descargar Catálogo PDF",
+    "requestQuote": "Solicitar Cotización Personalizada"
+  },
+  "About": {
+    "title": "Acerca de Lidaco",
+    "tagline": "Conectando la agricultura premium iraní con los mercados internacionales",
+    "storyTitle": "Nuestra Historia",
+    "storyContent": "Nuestra trayectoria comenzó en el corazón de Bam, donde los dátiles Mazafati crecen en suelos ricos en minerales. Lidaco nació para unir a los productores locales con los importadores mundiales, sin intermediarios y sin comprometer la excelencia.",
+    "pillarsTitle": "Nuestros Pilares de Valor",
+    "pillars": {
+      "sourcing": {
+        "title": "Abastecimiento Directo",
+        "description": "Firmamos acuerdos directos con agricultores en Bam y Kermán, garantizando trazabilidad y comercio justo."
+      },
+      "standards": {
+        "title": "Estándares de Exportación",
+        "description": "Nuestros productos se procesan y envasan en instalaciones modernas bajo estrictas normas internacionales de inocuidad."
+      },
+      "partnership": {
+        "title": "Relaciones a Largo Plazo",
+        "description": "Priorizamos la consistencia del suministro y acuerdos comerciales flexibles para cultivar relaciones duraderas."
+      }
+    },
+    "modelTitle": "Modelo de Negocio",
+    "models": {
+      "ownExport": {
+        "title": "Exportación de Marca Propia",
+        "description": "Exportación directa de dátiles Mazafati y pistachos de primera calidad bajo la marca Lidaco."
+      },
+      "management": {
+        "title": "Gestión Integral de Exportación",
+        "description": "Actuamos como agente comercial para productores locales, gestionando fitosanitarios, aduanas y logística."
+      },
+      "b2bTrade": {
+        "title": "Redes de Comercio B2B",
+        "description": "Operamos canales de distribución dedicados en China, Oriente Medio y Europa."
+      }
+    }
+  },
+  "Packaging": {
+    "title": "Estándares de Empaque para Exportación",
+    "description": "Nuestras instalaciones clasifican, seleccionan y envasan bajo rigurosas condiciones higiénicas, adaptándonos a las regulaciones de cada mercado.",
+    "retailTitle": "Empaque para Canal Minorista",
+    "retailDesc": "Cajas de 600g a 1kg con diseño personalizado listas para el lineal del supermercado.",
+    "vacuumTitle": "Envasado al Vacío",
+    "vacuumDesc": "Conserva la humedad idónea (15-25%) y prolonga la vida útil reteniendo color y sabor natural.",
+    "bulkTitle": "Empaque Mayorista a Granel",
+    "bulkDesc": "Cajas y sacos resistentes de 5kg, 10kg, 25kg y 50kg ideales para distribuidores e industria alimentaria."
+  },
+  "Export": {
+    "title": "Exportación y Logística Global",
+    "description": "Lidaco gestiona el ciclo completo desde la cosecha en los campos de Bam y Kermán hasta la entrega en puertos internacionales.",
+    "step1Title": "1. Abastecimiento en Origen",
+    "step1Desc": "Contratos directos que garantizan trazabilidad, frescura y selección rigurosa en el campo.",
+    "step2Title": "2. Control de Calidad y Procesado",
+    "step2Desc": "Clasificación y empaque higiénico en almacenes certificados con normas internacionales.",
+    "step3Title": "3. Aduanas y Fletes Marítimos",
+    "step3Desc": "Gestión de inspecciones fitosanitarias, despachos aduaneros y envíos rápidos desde el puerto de Bandar Abbás."
+  },
+  "HomePage": {
+    "title": "Descubra Lidaco",
+    "subtitle": "Dátiles y Frutos Secos Exclusivos de Calidad Superior",
+    "description": "Disfrute de la más selecta cosecha de dátiles y pistachos recolectados a mano para satisfacer a los paladares más exigentes.",
+    "exploreButton": "Explorar Colección",
+    "aboutButton": "Nuestra Herencia",
+    "languageSwitcher": "Idioma",
+    "features": {
+      "dates": {
+        "title": "Dátiles Mazafati Seleccionados",
+        "description": "Textura suave caramelizada, recolectados a mano en su punto óptimo de maduración."
+      },
+      "organic": {
+        "title": "100% Productos Naturales",
+        "description": "Procedentes de plantaciones locales que aplican rigurosas prácticas agrícolas tradicionales."
+      },
+      "gifting": {
+        "title": "Cajas de Regalo Exclusivas",
+        "description": "Presentaciones elegantes y sofisticadas ideales para compartir y celebrar."
+      }
+    }
+  }
+}

@@ -36,9 +36,10 @@ export default async function LocaleLayout({
 
   // Provide messages to the client provider
   const messages = await getMessages();
+  const isRtl = locale === "ar";
 
   return (
-    <html lang={locale} className={`${montserrat.variable}`}>
+    <html lang={locale} dir={isRtl ? "rtl" : "ltr"} className={`${montserrat.variable}`}>
       <body className="font-sans antialiased bg-lidaco-cream text-lidaco-brown min-h-screen">
         <NextIntlClientProvider messages={messages}>
           <Navbar />

@@ -1,0 +1,274 @@
+{
+  "Navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "products": "Ürünler",
+    "packaging": "Paketleme",
+    "export": "İhracat",
+    "catalog": "Katalog",
+    "contact": "İletişim"
+  },
+  "Hero": {
+    "label": "Bam, İran'dan Doğrudan",
+    "title": "Dünya Pazarları İçin Birinci Sınıf Hurma ve Antep Fıstığı",
+    "description": "İranlı çiftçileri, uluslararası ihracat standartları ve profesyonel kalite güvencesiyle küresel alıcılarla buluşturuyoruz.",
+    "ctaPrimary": "Ürünleri İncele",
+    "ctaSecondary": "Kataloğu İndir"
+  },
+  "Products": {
+    "title": "Seçkin Ürün Koleksiyonumuz",
+    "description": "Lidaco, uluslararası sınıflandırma standartlarına ve özel paketleme çözümlerine uygun en kaliteli İran hurmalarını ve fıstıklarını ihraç etmektedir.",
+    "requestQuote": "Fiyat Teklifi Al",
+    "backToList": "Ürünlere Dön",
+    "learnMore": "Detaylı Bilgi",
+    "specsLabel": "Teknik Özellikler",
+    "originLabel": "Menşei",
+    "moistureLabel": "Nem Oranı",
+    "skinLabel": "Kabuk / Zar",
+    "packingLabel": "Ambalaj",
+    "sizeLabel": "Kalibre / Boyut",
+    "gradeLabel": "Kalite Sınıfı",
+    "textureLabel": "Doku ve Lezzet",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "Bam Mazafati Hurması",
+        "origin": "Bam, İran",
+        "description": "Mazafati, parlak siyah rengi, yumuşacık dokusu ve sulu karamel lezzetiyle dünyanın en meşhur hurma çeşitlerinden biridir.",
+        "specs": [
+          "Koyu parlak siyah",
+          "Yumuşak taze doku",
+          "%15–25 Nem Oranı"
+        ],
+        "details": {
+          "moisture": "%15 - %25",
+          "skin": "İnce, pürüzsüz ve ete tam yapışık",
+          "packing": "600g - 5kg karton kutular veya vakumlu ambalaj",
+          "grade": "A Sınıfı Premium İhracat",
+          "texture": "Etli, sulu ve doğal karamelimsi tat"
+        }
+      },
+      "piarom-dates": {
+        "name": "Piarom Hurması (Meryemi)",
+        "origin": "Hürmüzgan, İran",
+        "description": "Koyu kahverengi rengi, çikolatamsı aroması ve uzun raf ömrü ile bilinen lüks yarı kuru hurma çeşidi.",
+        "specs": [
+          "Yarı kuru tip",
+          "İnce koyu kabuk",
+          "Yüksek besin değeri"
+        ],
+        "details": {
+          "moisture": "%15'in altında (Yarı Kuru)",
+          "skin": "İnce, hafif kırışık ve sıkı yapışık",
+          "packing": "5kg - 10kg ihracat kartonları",
+          "grade": "1. Sınıf Seçme Ürün",
+          "texture": "Çiğnenebilir, karamel lezzetinde ve yapışkan olmayan"
+        }
+      },
+      "kabkab-dates": {
+        "name": "Kabkab Hurması",
+        "origin": "Behbehan, İran",
+        "description": "Altın sarısı-kahverengi rengi, yüksek doğal şerbet oranı ve dolgun etli yapısıyla çok tatlı bir çeşittir.",
+        "specs": [
+          "Altın sarısı kahve",
+          "Yarı yumuşak doku",
+          "Bol etli ve tatlı"
+        ],
+        "details": {
+          "moisture": "%18 - %20",
+          "skin": "Kalın ve nemli",
+          "packing": "3kg - 10kg preslenmiş veya tekli kutular",
+          "grade": "Standart A Sınıfı",
+          "texture": "Yumuşak, yoğun şerbetli ve tatlı"
+        }
+      },
+      "rabi-dates": {
+        "name": "Rabi Hurması",
+        "origin": "Sistan ve Belucistan, İran",
+        "description": "Uzun yapılı, koyu kahverengiden siyaha uzanan rengiyle dünya pazarlarında ve Asya'da çok talep gören dayanıklı bir hurma.",
+        "specs": [
+          "Kızıla çalan siyah",
+          "Uluslararası yüksek talep",
+          "Uzun silindirik form"
+        ],
+        "details": {
+          "moisture": "%14 - %16 (Yarı Kuru)",
+          "skin": "İnce ve pürüzsüz",
+          "packing": "5kg - 10kg karton veya dökme ambalaj",
+          "grade": "Premium İhracat",
+          "texture": "Doğal tatlı, esnek ve uzun raf ömürlü"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "Akbari Fıstığı",
+        "origin": "Kerman, İran",
+        "description": "Dünyanın en uzun fıstık çeşidi olan Akbari, küresel ticarette en lüks ve prestijli kalite olarak kabul edilir.",
+        "specs": [
+          "Dünyanın en uzun fıstığı",
+          "Süper lüks kalite",
+          "Çok kolay açılan kabuk"
+        ],
+        "details": {
+          "size": "20/22 - 24/26 adet/ons",
+          "skin": "Fildişi beyazı kabuk ve morumsu iç",
+          "packing": "10kg - 25kg vakumlu veya çuval ambalaj",
+          "grade": "Süper Uzun (A Sınıfı Premium)",
+          "texture": "Çıtır, zengin doğal yağlı ve aromatik"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "Ahmad Aghaei Fıstığı",
+        "origin": "Kerman, İran",
+        "description": "Canlı yeşil içi ve benzersiz aromatik lezzetiyle orta boy uzun fıstık çeşidi.",
+        "specs": [
+          "Orta boy uzun form",
+          "Canlı yeşil iç",
+          "Yüksek randıman"
+        ],
+        "details": {
+          "size": "22/24 - 26/28 adet/ons",
+          "skin": "Parlak beyaz kabuk, kırmızı/yeşil iç",
+          "packing": "25kg çift katlı torbalar",
+          "grade": "Uzun Çeşit (A Sınıfı)",
+          "texture": "Ekstra gevrek ve yoğun lezzetli"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "Fandoghi Fıstığı (Yuvarlak)",
+        "origin": "Kerman, İran",
+        "description": "Mükemmel fiyat-performans dengesi sayesinde dünya genelinde en çok ihraç edilen yuvarlak fıstık çeşididir.",
+        "specs": [
+          "Yuvarlak form",
+          "En çok ihraç edilen çeşit",
+          "Rekabetçi fiyat avantajı"
+        ],
+        "details": {
+          "size": "28/30 - 30/32 adet/ons",
+          "skin": "Doğal krem kabuk, yeşil iç",
+          "packing": "50kg jüt çuval veya özel karton kutular",
+          "grade": "Yuvarlak Çeşit (Standart İhracat)",
+          "texture": "Çıtır ve klasik yoğun fıstık tadı"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "Kalleh Ghouchi Fıstığı (Jumbo)",
+        "origin": "Kerman, İran",
+        "description": "Geniş doğal kabuk açıklığı ve tereyağımsı dolgun lezzetiyle bilinen dev boy yuvarlak Jumbo fıstık.",
+        "specs": [
+          "Jumbo dev yuvarlak boyut",
+          "Geniş doğal açık kabuk",
+          "Yoğun tereyağımsı lezzet"
+        ],
+        "details": {
+          "size": "20/22 - 22/24 adet/ons",
+          "skin": "İri kemik beyazı kabuk",
+          "packing": "10kg - 50kg çuval ve kartonlar",
+          "grade": "Jumbo Yuvarlak (Premium)",
+          "texture": "Doygun çıtırlık ve ekstra büyük tane"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "İhracat Ekibimizle İletişime Geçin",
+    "description": "Numune talep etmek, paketleme detaylarını görüşmek veya toptan fiyat teklifi almak için Tahran merkez ofisimizle iletişime geçin.",
+    "fields": {
+      "name": "Ad Soyad",
+      "company": "Şirket Adı",
+      "country": "Ülke",
+      "email": "E-posta Adresi",
+      "whatsapp": "WhatsApp Numarası (ülke kodu ile)",
+      "interest": "İlgilendiğiniz Ürünler",
+      "quantity": "Talep Edilen Miktar (kg)",
+      "message": "Mesajınız / Özel Talepleriniz",
+      "submit": "İhracat Talebi Gönder"
+    },
+    "directContact": "Doğrudan İletişim",
+    "emailLabel": "E-posta Gönderin",
+    "whatsappLabel": "WhatsApp ile Mesajlaşın",
+    "mapLabel": "Tahran merkezli, Bam ve Kerman çiftliklerinden dünya limanlarına doğrudan tedarik"
+  },
+  "Catalog": {
+    "title": "Ürün Kataloğu",
+    "description": "Ürün teknik özellikleri, ambalaj seçenekleri ve minimum sipariş miktarlarını içeren ihracat kataloğumuzu indirin.",
+    "downloadButton": "Katalog PDF İndir",
+    "requestQuote": "Özel Teklif İste"
+  },
+  "About": {
+    "title": "Lidaco Hakkında",
+    "tagline": "İran'ın seçkin tarımını dünya pazarlarıyla buluşturan köprü",
+    "storyTitle": "Marka Hikayemiz",
+    "storyContent": "Yolculuğumuz, Mazafati hurmalarının dünyanın en mineral zengini topraklarında yetiştiği Bam'da başladı. Lidaco, yerel çiftçiler ile uluslararası alıcılar arasında aracısız ve tavizsiz bir köprü kurmak amacıyla kuruldu.",
+    "pillarsTitle": "Temel Değerlerimiz",
+    "pillars": {
+      "sourcing": {
+        "title": "Doğrudan Çiftlik Tedariği",
+        "description": "Bam ve Kerman'daki çiftliklerle doğrudan sözleşmeler yaparak tam izlenebilirlik ve adil ticaret sağlıyoruz."
+      },
+      "standards": {
+        "title": "Uluslararası İhracat Standartları",
+        "description": "Ürünlerimiz en modern tesislerde uluslararası gıda güvenliği standartlarına uygun olarak elenir ve paketlenir."
+      },
+      "partnership": {
+        "title": "Uzun Vadeli Ortaklık",
+        "description": "Sürdürülebilir iş ilişkileri için kesintisiz tedarik güvencesi ve esnek ticaret modelleri sunuyoruz."
+      }
+    },
+    "modelTitle": "İş Modeli",
+    "models": {
+      "ownExport": {
+        "title": "Kendi Markamızla İhracat",
+        "description": "Lidaco markası altında tesislerimizde işlenen birinci sınıf hurma ve fıstıkların doğrudan ihracatı."
+      },
+      "management": {
+        "title": "İhracat Yönetim Hizmetleri",
+        "description": "Yerel üreticiler adına gümrükleme, bitki sağlığı sertifikasyonu ve uluslararası lojistik yönetimi."
+      },
+      "b2bTrade": {
+        "title": "B2B Ticaret Ağları",
+        "description": "Çin, Orta Doğu ve Avrupa'da faaliyet gösteren özel toptan dağıtım ve ticaret ortaklıkları."
+      }
+    }
+  },
+  "Packaging": {
+    "title": "İhracat Paketleme Standartları",
+    "description": "Modern tesislerimizde hurma ve fıstıklar hijyenik koşullarda boylanır ve farklı pazarların regülasyonlarına uygun şekilde paketlenir.",
+    "retailTitle": "Perakende ve Market Ambalajları",
+    "retailDesc": "Süpermarket rafları için özel tasarımlı 600g ile 1kg arası şık tüketici kutuları.",
+    "vacuumTitle": "Vakumlu Koruyucu Ambalaj",
+    "vacuumDesc": "Doğal nem oranını (%15-25) korur, tazeliği ve rengi muhafaza ederek raf ömrünü uzatır.",
+    "bulkTitle": "Toptan ve Dökme Ambalaj",
+    "bulkDesc": "Distribütörler ve gıda sanayisi için dayanıklı 5kg, 10kg, 25kg ve 50kg karton ve çuvallar."
+  },
+  "Export": {
+    "title": "Küresel İhracat ve Lojistik",
+    "description": "Lidaco, Bam ve Kerman'daki hasattan uluslararası limanlara teslime kadar tüm ihracat sürecini yönetir.",
+    "step1Title": "1. Doğrudan Kaynaktan Tedarik",
+    "step1Desc": "Çiftliklerle yapılan sözleşmelerle tazelik, izlenebilirlik ve yüksek kalite güvencesi.",
+    "step2Title": "2. Hijyenik İşleme ve Kalite Kontrol",
+    "step2Desc": "Uluslararası standartlarda sertifikalı modern depolarda boylama ve paketleme.",
+    "step3Title": "3. Gümrük ve Hızlı Sevkiyat",
+    "step3Desc": "Bitki sağlığı kontrolleri, gümrük beyannameleri ve Bandar Abbas limanından hızlı deniz yolu sevkiyatı."
+  },
+  "HomePage": {
+    "title": "Lidaco Dünyasını Keşfedin",
+    "subtitle": "Özel Seçim Hurmalar ve Doğal Lezzetler",
+    "description": "En seçkin damak tatları için özenle toplanmış ve hazırlanmış birinci sınıf hurma ve kuru yemiş çeşitlerini deneyimleyin.",
+    "exploreButton": "Koleksiyonu Keşfet",
+    "aboutButton": "Köklü Mirasımız",
+    "languageSwitcher": "Dil",
+    "features": {
+      "dates": {
+        "title": "Seçme Mazafati Hurmaları",
+        "description": "Tam olgunlaşma döneminde elle toplanan yumuşak ve karamel lezzetinde taze hurmalar."
+      },
+      "organic": {
+        "title": "%100 Doğal Ürünler",
+        "description": "Geleneksel tarım yöntemlerine sadık kalınarak yetiştirilen katkısız lezzetler."
+      },
+      "gifting": {
+        "title": "Özel Tasarım Hediye Kutuları",
+        "description": "Kutlamalar ve kurumsal hediyeler için zarafetle hazırlanmış özel kutular."
+      }
+    }
+  }
+}

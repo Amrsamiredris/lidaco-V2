@@ -20,6 +20,7 @@
     "description": "Lidaco exports the finest Iranian dates and premium pistachios, adhering to international grade standards and custom packaging.",
     "requestQuote": "Request Quote",
     "backToList": "Back to Products",
+    "learnMore": "Learn More",
     "specsLabel": "Specifications",
     "originLabel": "Origin",
     "moistureLabel": "Moisture",
@@ -33,7 +34,11 @@
         "name": "Mazafati Bam Dates",
         "origin": "Bam, Iran",
         "description": "Mazafati is one of the most famous dates in the world, renowned for its dark, shiny black appearance and exceptionally soft texture.",
-        "specs": ["Dark black color", "Soft texture", "15–25% Moisture"],
+        "specs": [
+          "Dark black color",
+          "Soft texture",
+          "15–25% Moisture"
+        ],
         "details": {
           "moisture": "15% - 25%",
           "skin": "Soft, thin, and fully attached",
@@ -46,7 +51,11 @@
         "name": "Piarom Dates",
         "origin": "Hormozgan, Iran",
         "description": "Piarom (Maryami) dates are semi-dry, dark brown, and possess a uniquely rich, chocolatey flavor with long shelf life.",
-        "specs": ["Semi-dry type", "Thin dark skin", "High nutrient content"],
+        "specs": [
+          "Semi-dry type",
+          "Thin dark skin",
+          "High nutrient content"
+        ],
         "details": {
           "moisture": "Below 15% (Semi-dry)",
           "skin": "Thin, wrinkled, and tightly adhered",
@@ -59,7 +68,11 @@
         "name": "Kabkab Dates",
         "origin": "Behbaharan, Iran",
         "description": "Kabkab dates are highly sweet, fleshy dates with a rich golden-brown color and semi-soft texture.",
-        "specs": ["Golden-brown color", "Semi-soft texture", "Fleshy & sweet"],
+        "specs": [
+          "Golden-brown color",
+          "Semi-soft texture",
+          "Fleshy & sweet"
+        ],
         "details": {
           "moisture": "18% - 20%",
           "skin": "Thick and wet",
@@ -72,7 +85,11 @@
         "name": "Rabi Dates",
         "origin": "Sistan-Baluchestan, Iran",
         "description": "Rabi dates are elongated, dark brown to black dates that are highly popular in international markets, including China.",
-        "specs": ["Dark reddish-black", "Highly popular in Chinese market", "Elongated shape"],
+        "specs": [
+          "Dark reddish-black",
+          "Highly popular in Chinese market",
+          "Elongated shape"
+        ],
         "details": {
           "moisture": "14% - 16% (Semi-dry)",
           "skin": "Thin and smooth",
@@ -85,7 +102,11 @@
         "name": "Akbari Pistachio",
         "origin": "Kerman, Iran",
         "description": "Akbari is the longest variety of pistachio, recognized as the most luxury and premium grade globally.",
-        "specs": ["Longest pistachio variety", "Premium luxury grade", "Easy to shell"],
+        "specs": [
+          "Longest pistachio variety",
+          "Premium luxury grade",
+          "Easy to shell"
+        ],
         "details": {
           "size": "20/22 to 24/26",
           "skin": "Creamy white shell with purple kernel",
@@ -98,7 +119,11 @@
         "name": "Ahmad Aghaei Pistachio",
         "origin": "Kerman, Iran",
         "description": "Ahmad Aghaei is a medium-sized, long pistachio featuring a vibrant green kernel and unique aromatic flavor.",
-        "specs": ["Medium size", "Vibrant green kernel", "High yield variety"],
+        "specs": [
+          "Medium size",
+          "Vibrant green kernel",
+          "High yield variety"
+        ],
         "details": {
           "size": "22/24 to 26/28",
           "skin": "Bright white shell, red/green kernel",
@@ -111,7 +136,11 @@
         "name": "Fandoghi Pistachio",
         "origin": "Kerman, Iran",
         "description": "Fandoghi is a round pistachio and the most common variety exported worldwide due to its excellent quality-price ratio.",
-        "specs": ["Round shape", "Most common export variety", "Competitive pricing"],
+        "specs": [
+          "Round shape",
+          "Most common export variety",
+          "Competitive pricing"
+        ],
         "details": {
           "size": "28/30 to 30/32",
           "skin": "Natural creamy shell, green kernel",
@@ -124,7 +153,11 @@
         "name": "Kalleh Ghouchi Pistachio",
         "origin": "Kerman, Iran",
         "description": "Kalleh Ghouchi is a jumbo-sized, round pistachio variety with a rich flavor and wide shell opening.",
-        "specs": ["Jumbo round shape", "Wide naturally open shell", "Rich buttery flavor"],
+        "specs": [
+          "Jumbo round shape",
+          "Wide naturally open shell",
+          "Rich buttery flavor"
+        ],
         "details": {
           "size": "20/22 to 22/24",
           "skin": "Large bone-white shell",

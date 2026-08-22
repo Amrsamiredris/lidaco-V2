@@ -1,0 +1,274 @@
+{
+  "Navbar": {
+    "home": "Startseite",
+    "about": "Über Uns",
+    "products": "Produkte",
+    "packaging": "Verpackung",
+    "export": "Export",
+    "catalog": "Katalog",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "label": "Direkt aus Bam, Iran",
+    "title": "Erstklassige Datteln & Pistazien für globale Märkte",
+    "description": "Wir verbinden iranische Erzeuger direkt mit internationalen Großabnehmern durch erstklassige Exportqualität und professionelle Standards.",
+    "ctaPrimary": "Produkte Ansehen",
+    "ctaSecondary": "Katalog Herunterladen"
+  },
+  "Products": {
+    "title": "Unsere Premium-Kollektion",
+    "description": "Lidaco exportiert feinste iranische Datteln und ausgewählte Pistazien unter Einhaltung strenger internationaler Qualitätsnormen.",
+    "requestQuote": "Angebot Anfordern",
+    "backToList": "Zurück zur Übersicht",
+    "learnMore": "Mehr Erfahren",
+    "specsLabel": "Spezifikationen",
+    "originLabel": "Herkunft",
+    "moistureLabel": "Feuchtigkeitsgehalt",
+    "skinLabel": "Schale / Haut",
+    "packingLabel": "Verpackung",
+    "sizeLabel": "Kaliber / Größe",
+    "gradeLabel": "Handelsklasse",
+    "textureLabel": "Textur & Geschmack",
+    "items": {
+      "mazafati-bam-dates": {
+        "name": "Mazafati Datteln aus Bam",
+        "origin": "Bam, Iran",
+        "description": "Mazafati ist eine der berühmtesten Dattelsorten der Welt, bekannt für ihre tiefschwarze Farbe, saftige Weichheit und feine Karamellnote.",
+        "specs": [
+          "Tiefschwarze Farbe",
+          "Sehr weiche Textur",
+          "15–25% Feuchtigkeit"
+        ],
+        "details": {
+          "moisture": "15% - 25%",
+          "skin": "Dünn, weich und voll anliegend",
+          "packing": "600g bis 5kg Kartons oder Vakuumverpackung",
+          "grade": "Premium Export Klasse A",
+          "texture": "Fleischig, saftig und natürlich süß"
+        }
+      },
+      "piarom-dates": {
+        "name": "Piarom Datteln (Maryami)",
+        "origin": "Hormozgan, Iran",
+        "description": "Piarom Datteln sind halbtrocken, dunkelbraun und begeistern mit einem feinen Schokoladen-Karamell-Aroma bei langer Haltbarkeit.",
+        "specs": [
+          "Halbtrockener Typ",
+          "Dünne dunkle Haut",
+          "Hoher Nährstoffgehalt"
+        ],
+        "details": {
+          "moisture": "Unter 15% (Halbtrocken)",
+          "skin": "Dünn, gerunzelt und fest haftend",
+          "packing": "5kg bis 10kg Exportkartons",
+          "grade": "Erste Wahl Auslese",
+          "texture": "Bissfest, karamellig und nicht klebrig"
+        }
+      },
+      "kabkab-dates": {
+        "name": "Kabkab Datteln",
+        "origin": "Behbahan, Iran",
+        "description": "Sehr süße, fleischige Datteln von goldbrauner Farbe und weicher Beschaffenheit, reich an natürlichem Dattelsirup.",
+        "specs": [
+          "Goldbraune Farbe",
+          "Halbweiche Konsistenz",
+          "Fleischig & süß"
+        ],
+        "details": {
+          "moisture": "18% - 20%",
+          "skin": "Dick und feucht",
+          "packing": "3kg bis 10kg Presskartons oder Einzelpackungen",
+          "grade": "Standard Klasse A",
+          "texture": "Weich, feucht mit hohem Sirupgehalt"
+        }
+      },
+      "rabi-dates": {
+        "name": "Rabi Datteln",
+        "origin": "Sistan und Belutschistan, Iran",
+        "description": "Längliche, dunkelbraune bis schwarze Datteln, die weltweit wegen ihrer Robustheit und Haltbarkeit geschätzt werden.",
+        "specs": [
+          "Rötlich-schwarz",
+          "Sehr gefragt in Asien & Europa",
+          "Längliche Form"
+        ],
+        "details": {
+          "moisture": "14% - 16% (Halbtrocken)",
+          "skin": "Dünn und glatt",
+          "packing": "5kg bis 10kg Kartons oder Schüttgut",
+          "grade": "Premium Export",
+          "texture": "Angenehm zäh, natürlich süß und lange haltbar"
+        }
+      },
+      "akbari-pistachio": {
+        "name": "Akbari Pistazien",
+        "origin": "Kerman, Iran",
+        "description": "Akbari ist die längste Pistaziensorte der Welt und gilt international als die edelste Luxus-Pistazie überhaupt.",
+        "specs": [
+          "Längste Sorte weltweit",
+          "Höchste Luxusklasse",
+          "Sehr leicht zu knacken"
+        ],
+        "details": {
+          "size": "20/22 bis 24/26 Stück/Unze",
+          "skin": "Elfenbeinweiße Schale mit purpurnem Kern",
+          "packing": "10kg bis 25kg Vakuum- oder Schüttgutsäcke",
+          "grade": "Super Long (Klasse A Premium)",
+          "texture": "Knackig und reich an wertvollen Pflanzenölen"
+        }
+      },
+      "ahmad-aghaei-pistachio": {
+        "name": "Ahmad Aghaei Pistazien",
+        "origin": "Kerman, Iran",
+        "description": "Mittellange Pistazie mit leuchtend grünem Kern und unverwechselbar aromatischem, vollem Geschmack.",
+        "specs": [
+          "Mittellange Form",
+          "Leuchtend grüner Kern",
+          "Beliebte Edelsorte"
+        ],
+        "details": {
+          "size": "22/24 bis 26/28 Stück/Unze",
+          "skin": "Strahlend weiße Schale, rot-grüner Kern",
+          "packing": "25kg Doppellagensäcke",
+          "grade": "Lange Sorte (Klasse A)",
+          "texture": "Besonders knusprig und aromatisch"
+        }
+      },
+      "fandoghi-pistachio": {
+        "name": "Fandoghi Pistazien (Rund)",
+        "origin": "Kerman, Iran",
+        "description": "Kugelförmige Pistazie und der meistexportierte Klassiker weltweit dank eines hervorragenden Preis-Leistungs-Verhältnisses.",
+        "specs": [
+          "Runde Form",
+          "Haupt-Exportsorte",
+          "Hervorragendes Preisniveau"
+        ],
+        "details": {
+          "size": "28/30 bis 30/32 Stück/Unze",
+          "skin": "Helle Naturschale, grüner Kern",
+          "packing": "50kg Jutesäcke oder Kartons",
+          "grade": "Runde Sorte (Standard Export)",
+          "texture": "Knackig mit klassischem Pistaziengeschmack"
+        }
+      },
+      "kalleh-ghouchi-pistachio": {
+        "name": "Kalleh Ghouchi Pistazien (Jumbo)",
+        "origin": "Kerman, Iran",
+        "description": "Riesige Jumbo-Pistazie mit weit geöffneter Schale und intensivem, buttrig-nussigem Geschmack.",
+        "specs": [
+          "Großes Jumbo-Kaliber",
+          "Weit geöffnet",
+          "Buttriger Geschmack"
+        ],
+        "details": {
+          "size": "20/22 bis 22/24 Stück/Unze",
+          "skin": "Große, knochenweiße Schale",
+          "packing": "10kg bis 50kg Säcke oder Kartons",
+          "grade": "Jumbo Rund (Premium)",
+          "texture": "Kräftiger Biss und reichhaltiger Nussgeschmack"
+        }
+      }
+    }
+  },
+  "Contact": {
+    "title": "Kontaktieren Sie Unser Export-Team",
+    "description": "Treten Sie mit unserer Zentrale in Teheran in Kontakt, um Muster anzufordern, Verpackungsspezifikationen zu besprechen oder ein Großhandelsangebot zu erhalten.",
+    "fields": {
+      "name": "Vollständiger Name",
+      "company": "Unternehmen",
+      "country": "Land",
+      "email": "E-Mail-Adresse",
+      "whatsapp": "WhatsApp-Nummer (mit Ländervorwahl)",
+      "interest": "Gewünschte Produkte",
+      "quantity": "Bedarfsmenge (kg)",
+      "message": "Nachricht / Besondere Anforderungen",
+      "submit": "Exportanfrage Absenden"
+    },
+    "directContact": "Direkter Kontakt",
+    "emailLabel": "Per E-Mail",
+    "whatsappLabel": "Per WhatsApp",
+    "mapLabel": "Zentrale in Teheran, Direktbezug aus Bam und Kerman für weltweite Bestimmungshäfen"
+  },
+  "Catalog": {
+    "title": "Produktkatalog",
+    "description": "Laden Sie unseren vollständigen Exportkatalog mit Spezifikationen, Gebindegrößen und Mindestbestellmengen (MOQ) herunter.",
+    "downloadButton": "Katalog als PDF Herunterladen",
+    "requestQuote": "Individuelles Angebot Anfordern"
+  },
+  "About": {
+    "title": "Über Lidaco",
+    "tagline": "Die Brücke zwischen iranischer Spitzenlandwirtschaft und globalen Märkten",
+    "storyTitle": "Unsere Markengeschichte",
+    "storyContent": "Unsere Geschichte begann in Bam, wo Mazafati-Datteln auf mineralstoffreichen Böden gedeihen. Lidaco wurde gegründet, um Erzeuger direkt mit internationalen Käufern zu verbinden – ohne Zwischenhändler und ohne Kompromisse bei der Qualität.",
+    "pillarsTitle": "Unsere Kernwerte",
+    "pillars": {
+      "sourcing": {
+        "title": "Direkter Ursprungsbezug",
+        "description": "Feste Verträge mit Bauern in Bam und Kerman gewährleisten lückenlose Rückverfolgbarkeit und Fairness."
+      },
+      "standards": {
+        "title": "Internationale Exportstandards",
+        "description": "Sortierung, Kalibrierung und Verpackung erfolgen in modernen Anlagen unter höchsten Lebensmittelstandards."
+      },
+      "partnership": {
+        "title": "Langfristige Partnerschaft",
+        "description": "Wir setzen auf verlässliche Liefertreue und flexible Zahlungsmodelle für dauerhafte Geschäftsbeziehungen."
+      }
+    },
+    "modelTitle": "Geschäftsmodell",
+    "models": {
+      "ownExport": {
+        "title": "Export Eigener Erzeugnisse",
+        "description": "Direktexport von Mazafati-Datteln und Pistazien unter der Premiummarke Lidaco."
+      },
+      "management": {
+        "title": "Export-Management-Dienste",
+        "description": "Dienstleistungen für lokale Erzeuger: Zertifizierungen, Zollabfertigung und Logistikmanagement."
+      },
+      "b2bTrade": {
+        "title": "B2B-Handelsnetzwerke",
+        "description": "Spezialisierte Vertriebskanäle und Handelspartnerschaften in China, Nahost und Europa."
+      }
+    }
+  },
+  "Packaging": {
+    "title": "Export-Verpackungsstandards",
+    "description": "Unsere modernen Anlagen verarbeiten und verpacken Datteln und Pistazien unter strengsten Hygienebedingungen, abgestimmt auf die Anforderungen internationaler Märkte.",
+    "retailTitle": "Einzelhandelsverpackungen",
+    "retailDesc": "Attraktive 600g- bis 1kg-Boxen mit individuellem Design für den Lebensmitteleinzelhandel.",
+    "vacuumTitle": "Vakuumverpackung",
+    "vacuumDesc": "Bewahrt die ideale Feuchtigkeit (15-25%) und verlängert die Frische bei vollem Farberhalt.",
+    "bulkTitle": "Großhandels- & Industriegebinde",
+    "bulkDesc": "Robuste 5kg, 10kg, 25kg und 50kg Kartons und Säcke für Großhändler und lebensmittelverarbeitende Betriebe."
+  },
+  "Export": {
+    "title": "Globaler Export & Logistik",
+    "description": "Lidaco steuert den gesamten Prozess von der Ernte in Bam und Kerman bis zur Auslieferung an internationalen Seehäfen.",
+    "step1Title": "1. Bezug an der Quelle",
+    "step1Desc": "Direktverträge garantieren absolute Frische, Rückverfolgbarkeit und strenge Qualitätsauslese.",
+    "step2Title": "2. Veredelung & Qualitätskontrolle",
+    "step2Desc": "Hygienische Sortierung und Verpackung in zertifizierten Lagern nach internationalen Vorgaben.",
+    "step3Title": "3. Zoll & Seefracht",
+    "step3Desc": "Phytosanitäre Zertifikate, vollständige Zollerklärungen und schnelle Verschiffung über Bandar Abbas."
+  },
+  "HomePage": {
+    "title": "Erleben Sie Lidaco",
+    "subtitle": "Erlesene Datteln & Natürliche Schätze",
+    "description": "Genießen Sie unsere von Hand verlesenen Datteln und Pistazien aus traditionellem Anbau für höchste Ansprüche.",
+    "exploreButton": "Kollektion Entdecken",
+    "aboutButton": "Unsere Herkunft",
+    "languageSwitcher": "Sprache",
+    "features": {
+      "dates": {
+        "title": "Ausgewählte Mazafati Datteln",
+        "description": "Zartschmelzende Karamelltextur, handgeerntet zum perfekten Reifezeitpunkt."
+      },
+      "organic": {
+        "title": "100% Natürliche Produkte",
+        "description": "Aus nachhaltigem Anbau lokaler Farmen nach bewährten ökologischen Grundsätzen."
+      },
+      "gifting": {
+        "title": "Exklusive Geschenkverpackungen",
+        "description": "Edle Geschenkboxen für geschäftliche und feierliche Anlässe."
+      }
+    }
+  }
+}

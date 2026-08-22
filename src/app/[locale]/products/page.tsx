@@ -120,7 +120,7 @@ export default async function ProductsPage({
                 <div className="p-8 pt-0 flex gap-4">
                   <Link href={`/${locale}/products/${slug}`} className="flex-1">
                     <button className="w-full py-3 border border-lidaco-green/45 hover:border-lidaco-green text-lidaco-green bg-transparent hover:bg-lidaco-green/5 text-xs font-bold tracking-wider uppercase rounded-xl transition-all duration-300">
-                      Learn More
+                      {t("learnMore")}
                     </button>
                   </Link>
                   <Link href={`/${locale}#contact`} className="flex-1">
