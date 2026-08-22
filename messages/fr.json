@@ -185,7 +185,13 @@
     "directContact": "Contact Direct",
     "emailLabel": "Par E-mail",
     "whatsappLabel": "Sur WhatsApp",
-    "mapLabel": "Siège à Téhéran, approvisionnement direct depuis Bam et Kerman vers tous les ports mondiaux"
+    "mapLabel": "Siège à Téhéran, approvisionnement direct depuis Bam et Kerman vers tous les ports mondiaux",
+    "submitting": "Envoi de la demande en cours...",
+    "successTitle": "Demande d'exportation envoyée avec succès !",
+    "successDesc": "Merci d'avoir contacté Lidaco. Nous avons bien reçu vos spécifications et notre équipe vous répondra par e-mail sous 24 heures.",
+    "whatsappCta": "Poursuivre sur WhatsApp avec les détails",
+    "submitAnother": "Envoyer une autre demande",
+    "errorMsg": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement sur WhatsApp."
   },
   "Catalog": {
     "title": "Catalogue Produits",

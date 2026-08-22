@@ -185,7 +185,13 @@
     "directContact": "Doğrudan İletişim",
     "emailLabel": "E-posta Gönderin",
     "whatsappLabel": "WhatsApp ile Mesajlaşın",
-    "mapLabel": "Tahran merkezli, Bam ve Kerman çiftliklerinden dünya limanlarına doğrudan tedarik"
+    "mapLabel": "Tahran merkezli, Bam ve Kerman çiftliklerinden dünya limanlarına doğrudan tedarik",
+    "submitting": "Talebiniz Gönderiliyor...",
+    "successTitle": "İhracat Talebiniz Başarıyla Alındı!",
+    "successDesc": "Lidaco ile iletişime geçtiğiniz için teşekkür ederiz. Ürün talebiniz alınmış olup, ekibimiz 24 saat içinde e-posta ile dönüş yapacaktır.",
+    "whatsappCta": "WhatsApp ile Talep Detaylarını İletin",
+    "submitAnother": "Yeni Bir Talep Gönder",
+    "errorMsg": "Form gönderilirken bir hata oluştu. Lütfen tekrar deneyin veya doğrudan WhatsApp üzerinden bize ulaşın."
   },
   "Catalog": {
     "title": "Ürün Kataloğu",

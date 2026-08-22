@@ -185,7 +185,13 @@
     "directContact": "Direct Communication",
     "emailLabel": "Email Us",
     "whatsappLabel": "Chat on WhatsApp",
-    "mapLabel": "Based in Tehran, sourcing from Bam — serving global markets"
+    "mapLabel": "Based in Tehran, sourcing from Bam — serving global markets",
+    "submitting": "Submitting Inquiry...",
+    "successTitle": "Inquiry Submitted Successfully!",
+    "successDesc": "Thank you for reaching out to Lidaco. We have received your export specifications and will reply via email within 24 hours.",
+    "whatsappCta": "Chat on WhatsApp with Details",
+    "submitAnother": "Submit Another Inquiry",
+    "errorMsg": "An error occurred while submitting the form. Please try again or contact us directly on WhatsApp."
   },
   "Catalog": {
     "title": "Product Catalog",

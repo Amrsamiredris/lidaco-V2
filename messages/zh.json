@@ -185,7 +185,13 @@
     "directContact": "直接沟通渠道",
     "emailLabel": "发送邮件",
     "whatsappLabel": "WhatsApp 在线咨询",
-    "mapLabel": "总部位于德黑兰，源自巴姆直供 —— 服务全球市场"
+    "mapLabel": "总部位于德黑兰，源自巴姆直供 —— 服务全球市场",
+    "submitting": "正在提交询盘...",
+    "successTitle": "出口询盘提交成功！",
+    "successDesc": "感谢您联系Lidaco。我们已收到您的产品需求，出口团队将在24小时内通过邮件回复您。",
+    "whatsappCta": "通过WhatsApp发送询盘明细",
+    "submitAnother": "提交新询盘",
+    "errorMsg": "提交表单时发生错误，请重试或直接通过WhatsApp联系我们。"
   },
   "Catalog": {
     "title": "产品目录",

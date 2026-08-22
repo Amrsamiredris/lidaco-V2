@@ -185,7 +185,13 @@
     "directContact": "Direkter Kontakt",
     "emailLabel": "Per E-Mail",
     "whatsappLabel": "Per WhatsApp",
-    "mapLabel": "Zentrale in Teheran, Direktbezug aus Bam und Kerman für weltweite Bestimmungshäfen"
+    "mapLabel": "Zentrale in Teheran, Direktbezug aus Bam und Kerman für weltweite Bestimmungshäfen",
+    "submitting": "Anfrage wird gesendet...",
+    "successTitle": "Exportanfrage erfolgreich übermittelt!",
+    "successDesc": "Vielen Dank für Ihre Nachricht an Lidaco. Wir haben Ihre Spezifikationen erhalten und melden uns innerhalb von 24 Stunden per E-Mail.",
+    "whatsappCta": "Per WhatsApp mit Anfragedetails fortfahren",
+    "submitAnother": "Weitere Anfrage senden",
+    "errorMsg": "Beim Absenden ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt per WhatsApp."
   },
   "Catalog": {
     "title": "Produktkatalog",
