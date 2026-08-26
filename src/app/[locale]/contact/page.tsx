@@ -149,10 +149,10 @@ export default function ContactPage() {
                   {t("emailLabel")}
                 </span>
                 <a
-                  href="mailto:export@lidaco.com"
+                  href="mailto:export@lidaco.shop"
                   className="block text-lg font-bold text-lidaco-gold hover:underline transition-all duration-300"
                 >
-                  export@lidaco.com
+                  export@lidaco.shop
                 </a>
               </div>
 
