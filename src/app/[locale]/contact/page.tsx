@@ -97,7 +97,7 @@ export default function ContactPage() {
   };
 
   const getWhatsAppLink = () => {
-    const phone = "989123456789";
+    const phone = "989333090289";
     const text = `Hello Lidaco Export Team,\n\nI just submitted an inquiry on your website:\n- Name: ${formData.name}\n- Company: ${formData.company || "N/A"}\n- Country: ${formData.country}\n- Products: ${formData.productInterest.join(", ") || "General Inquiry"}\n- Quantity: ${formData.quantity} kg\n- Email: ${formData.email}\n- Message: ${formData.message}`;
     return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
   };
@@ -162,12 +162,12 @@ export default function ContactPage() {
                   {t("whatsappLabel")}
                 </span>
                 <a
-                  href="https://wa.me/989123456789"
+                  href="https://wa.me/989333090289"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-lg font-bold text-lidaco-green hover:text-lidaco-gold transition-colors duration-300"
                 >
-                  +98 912 345 6789
+                  +98 933 309 0289
                 </a>
               </div>
             </div>
