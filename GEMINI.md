@@ -1,12 +1,13 @@
-# Deployment Automation Rule
+# Deployment Rule
 
-Whenever you make any code or configuration changes in this project, you MUST own the full deployment process end-to-end without waiting for user permission.
+Production is served from Vercel behind Cloudflare (domain: lidaco.shop).
 
-**Workflow Requirements:**
-1. **Commit:** Automatically run `git add .` and `git commit -m "[your commit message]"` after testing your changes.
-2. **Push:** Automatically run `git push`. If it fails due to network constraints in the sandbox, re-run `git push` with `BypassSandbox: true`.
-3. **Direct Vercel Deploy:** Since the GitHub Actions pipeline is currently experiencing Vercel Token authentication issues (`VERCEL_TOKEN` is invalid), you MUST also manually trigger a Vercel deployment locally. 
-   - Run: `npx vercel build --prod` (with `BypassSandbox: true`)
-   - Then run: `npx vercel deploy --prebuilt --prod` (with `BypassSandbox: true`)
-4. **Verify:** Ensure that the local deployment command finishes successfully and the changes propagate to the live website.
-5. **No Prompting:** Do not ask the user "Would you like me to commit and push?" or "Should I deploy?" — just do it.
+After code changes and a passing `npm run build`:
+1. Commit: `git add -A && git commit -m "<message>"`.
+2. Push: `git push` (branch `main`). The GitHub Action in `.github/workflows/deploy.yml` deploys on push.
+3. If the Action fails on `VERCEL_TOKEN`, the repo secret must be rotated by the owner
+   (GitHub repo > Settings > Secrets and variables > Actions: `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`).
+   Until then deploy manually: `npx vercel build --prod` then `npx vercel deploy --prebuilt --prod`.
+4. Verify https://lidaco.shop/en/ loads after deploying.
+
+Do not commit `.env*` files; they are git-ignored.
